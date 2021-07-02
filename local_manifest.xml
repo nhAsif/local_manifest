@@ -4,6 +4,8 @@
    <remote name="github"
           fetch="https://github.com" />
 
+<remove-project name="device/generic/opengl-transport" />
+
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="test" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
