@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
-<remote name="gitlab" fetch="https://gitlab.com/" />
 
+ <remote fetch="https://github.com/" name="git"/>
+<remote fetch="https://gitlab.com/" name="gitlabs"/>
 
  <!-- Trees -->
- <project path="device/xiaomi/rosy" name="nhAsif/android_device_xiaomi_rosy.git" remote="github" revision="rr" />
- <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-17.1" />
- <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-17.1" />
+ <project path="device/xiaomi/rosy" name="baunilla/android_device_xiaomi_rosy.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
