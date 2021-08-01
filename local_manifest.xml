@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
+ #sepolicy
+<remove-project name="device_qcom_sepolicy-legacy-um" />
+<project path="device_qcom_sepolicy-legacy-um" name="nhAsif/device_qcom_sepolicy-legacy-um.git" remote="github" revision="11" />
 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="legion" />
