@@ -9,5 +9,5 @@
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="legion" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="kernel/xiaomi/rosy" name="nhAsif/kernel_xiaomi_rosy.git" remote="github" revision="aex" />
- <project path="device_qcom_sepolicy-legacy-um" name="nhAsif/device_qcom_sepolicy-legacy-um.git" remote="github" revision="11" />
+<project path="device/qcom/sepolicy-legacy-um" name="nhAsif/device_qcom_sepolicy-legacy-um" remote="github" revision="11" />
 </manifest>
