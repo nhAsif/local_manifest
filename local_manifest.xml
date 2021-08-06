@@ -11,5 +11,5 @@
  <project path="kernel/xiaomi/rosy" name="EternalX-project/android_kernel_xiaomi_rosy-4.9.git" remote="github" revision="lineage-18.1" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/cherish" name="nhAsif/android_vendor_cherish" remote="eleven" />
+ <project path="vendor/cherish" name="nhAsif/android_vendor_cherish" remote="github" revision="eleven" />
 </manifest>
