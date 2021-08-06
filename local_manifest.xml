@@ -3,7 +3,7 @@
  
    <remote name="github"
           fetch="https://github.com" />
-
+<remove-project name="android_vendor_cherish" />
 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cherish" />
