@@ -3,6 +3,7 @@
  
    <remote name="github"
           fetch="https://github.com" />
+<remove-project name="android_vendor_cherish" />
 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cherish" />
@@ -10,5 +11,5 @@
  <project path="kernel/xiaomi/rosy" name="nhAsif/kernel_xiaomi_rosy.git" remote="github" revision="aex" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" />
- 
+ <project path="vendor/cherish" name="nhAsif/android_vendor_cherish" remote="eleven" />
 </manifest>
