@@ -5,7 +5,7 @@
 <remote fetch="https://gitlab.com/" name="gitlabs"/>
 
  <!-- Trees -->
- <project path="device/xiaomi/rosy" name="nhAsif/android_device_xiaomi_rosy.git" remote="github" revision="rr" />
+ <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="ten" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="ten" />
  <project path="kernel/xiaomi/rosy" name="BitrotK/android_kernel_xiaomi_rosy.git" remote="github" revision="3.18" />
 </manifest>
