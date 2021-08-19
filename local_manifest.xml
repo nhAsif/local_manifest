@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
-   <remote name="github"
-          fetch="https://github.com" />
-<remove-project name="android_vendor_cherish" />
+
+<remove-project name="vendor_radiant" />
 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cherish" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/rosy" name="EternalX-project/android_kernel_xiaomi_rosy-4.9.git" remote="github" revision="lineage-18.1" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/cherish" name="nhAsif/android_vendor_cherish" remote="github" revision="eleven" />
+ <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
+ <project path="vendor/radiant" name="nhAsif/vendor_radiant" remote="github" revision="eleven" />
 </manifest>
