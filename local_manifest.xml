@@ -11,5 +11,5 @@
  <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="silont-project/aarch64-elf-gcc" remote="github" revision="arm64/11" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="silont-project/arm-eabi-gcc" remote="github" revision="arm/11" />
- <project path="vendor/exthm" name="nhAsif/android_vendor_exthm" remote="github" revision="eleven" />
+ <project path="vendor/exthm" name="nhAsif/android_vendor_exthm" remote="github" revision="exthm-11" />
 </manifest>
