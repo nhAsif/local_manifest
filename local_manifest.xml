@@ -12,4 +12,4 @@
  <project path="kernel/xiaomi/rosy" name="AnGgIt88/Finix_kernel-4.9-rosy.git" remote="github" revision="a11/master" />
 <project path="prebuilts/clang/host/linux-x86/clang-rzyTC" name="rayrzy/rzyTC-build" remote="github" revision="master" />
 
-</manifest
+</manifest>
