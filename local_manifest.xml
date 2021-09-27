@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
-<remote name="github"
-          fetch="https://github.com" />
-
- 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="havoc" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
