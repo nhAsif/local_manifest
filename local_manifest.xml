@@ -9,6 +9,6 @@
  <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
- <project path="hardware_qcom-caf_msm8996_display" name="nhAsif/display_hal.git" remote="github" revision="main" />
+ <project path="hardware/qcom-caf/msm8996/display" name="nhAsif/display_hal.git" remote="github" revision="main" />
   
  </manifest>
