@@ -9,4 +9,5 @@
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
  <remove-project name="android_vendor_crdroid" />
  <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="11.0" />
- </manifest>
+
+</manifest>
