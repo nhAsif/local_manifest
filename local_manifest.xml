@@ -2,10 +2,7 @@
 <manifest>
 
 <remove-project name="android_hardware_qcom_display" />
-<remove-project name="android_hardware_qcom_audio" />
-<remove-project name="android_hardware_qcom_media" />
 
- 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/android_device_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
  <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
@@ -13,8 +10,5 @@
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
  <project path="hardware/qcom-caf/msm8996/display" name="baunilla/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
- <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" />
- <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" />
 
- 
 </manifest>
