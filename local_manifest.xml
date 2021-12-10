@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remove-path="hardware/qcom-caf/msm8996/display" />
+ <remove-project path="hardware/qcom-caf/msm8996/display" />
  
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/android_device_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
