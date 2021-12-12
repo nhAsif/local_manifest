@@ -6,7 +6,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/android_device_xiaomi_rosy.git" remote="github" revision="awaken" />
  <project path="vendor/xiaomi/rosy" name="baunilla/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
- <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
+ <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
 <project path="hardware/qcom-caf/msm8996-r/display" name="baunilla/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
