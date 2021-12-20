@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+        <!-- Remote -->
+	<remote name="Finix"
+                fetch="https://github.com/AnGgIt88" />
 
- <!-- Trees -->
- <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="c12test" />
- <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="twelve" />
- <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
-<project path="hardware/qcom-caf/msm8996-r/display" name="nhAsif/display_hal" remote="github" revision="main" />
-<project path="hardware/qcom-caf/msm8996-r/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" />
-<project path="hardware/qcom-caf/msm8996-r/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" />
+	<remote name="NFS"
+                fetch="https://github.com/NFS86" />
+
+        <remote name="PROJECTS"
+                fetch="https://github.com/NFS-projects" />
+
+        <remote name="pxl"
+                fetch="https://github.com/PixelExperience" />
+
+        <remote name="congor"
+                fetch="https://github.com/ConquerOS" />
+
+        <!-- Remove -->
+        <remove-project name="system_sepolicy" />
+        <remove-project name="LineageOS/android_hardware_qcom_display"/>
+        <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+        <remove-project name="LineageOS/android_hardware_qcom_media"/>
+
+        <!-- Source tree -->
+        <project path="external/tinyxml" name="external_tinyxml" remote="pxl" revision="twelve"/>
+        <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
+        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="congor" revision="twelve"/>
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="congor" revision="twelve"/>
+
+        <!-- Toolchain -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
+
+	<!-- Device Tree -->
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="twelve" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
+        
+        <!-- NFS Parts -->
+        <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk29" />
 
 </manifest>
