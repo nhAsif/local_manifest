@@ -29,6 +29,7 @@
         <!-- Source tree -->
         <project path="external/tinyxml" name="external_tinyxml" remote="pxl" revision="twelve"/>
         <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
+	<project path="system/sepolicy" name="android_system_sepolicy" remote="nha" revision="twelve" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
         <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="congor" revision="twelve"/>
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="congor" revision="twelve"/>
