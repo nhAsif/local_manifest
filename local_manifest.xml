@@ -16,6 +16,9 @@
 
         <remote name="congor"
                 fetch="https://github.com/ConquerOS" />
+	
+	<remote name="nha"
+                fetch="https://github.com/nhAsif2" />
 
         <!-- Remove -->
         <remove-project name="system_sepolicy" />
@@ -36,7 +39,7 @@
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="NFS" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="cherish" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
         
         <!-- NFS Parts -->
