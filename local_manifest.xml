@@ -9,8 +9,8 @@
                 fetch="https://github.com/nhAsif" />
 
 	<!-- Device Tree -->
+	<project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="nha" revision="forklos" />
+	<project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="baunil" revision="lineage-18.1" />
         <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="baunil" revision="lineage-19.0" />
-        <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="nha" revision="forklos" />
-        <project path="vendor/xiaomi/rosy" name="android_vendor_xiaomi_rosy" remote="baunil" revision="lineage-18.1" />
 	
 </manifest>
