@@ -2,47 +2,25 @@
 <manifest>
 
         <!-- Remote -->
-	<remote name="Finix"
-                fetch="https://github.com/AnGgIt88" />
-
-	<remote name="NFS"
-                fetch="https://github.com/NFS86" />
-
-        <remote name="PROJECTS"
-                fetch="https://github.com/NFS-projects" />
-
-        <remote name="pxl"
-                fetch="https://github.com/PixelExperience" />
-
-        <remote name="congor"
-                fetch="https://github.com/ConquerOS" />
+        <remote name="pulkit"
+                fetch="https://github.com/Pulkit077" />
 	
 	<remote name="nha"
-                fetch="https://github.com/nhAsif2" />
+                fetch="https://github.com/nhAsif" />
 
-        <!-- Remove -->
-        <remove-project name="android_system_sepolicy" />
-        <remove-project name="LineageOS/android_hardware_qcom_display"/>
-        <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-        <remove-project name="LineageOS/android_hardware_qcom_media"/>
-
-        <!-- Source tree -->
-        <project path="external/tinyxml" name="external_tinyxml" remote="pxl" revision="twelve"/>
-	<project path="system/sepolicy" name="android_system_sepolicy" remote="nha" revision="twelve" />
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="congor" revision="twelve"/>
-        <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="congor" revision="twelve"/>
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="congor" revision="twelve"/>
-
+        <!-- remove -->       
+        <remove-project name="android_hardware_qcom_wlan" />
+	
         <!-- Toolchain -->
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="PROJECTS" revision="11.x" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="PROJECTS" revision="11.x" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="gcc-arm64" remote="pulkit" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="gcc-arm" remote="pulkit" revision="gcc-master" />
 
 	<!-- Device Tree -->
-        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="eleven" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="cherish" />
-        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="NFS" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="cherish12" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="pulkit" revision="twelve" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="twelve" />
         
-        <!-- NFS Parts -->
-        <project path="device/xiaomi/rosy/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk29" />
+	<!-- wlan -->
+	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nha" revision="twelve-caf" />
 
 </manifest>
