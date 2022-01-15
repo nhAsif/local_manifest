@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-	<remove-project name="Project-Isobar/android_packages_apps_Updater" />
-	
-        <!-- Remote -->
-	<remote name="baunil"
-                fetch="https://github.com/baunilla" />
-	
-	<remote name="pulkit"
-                fetch="https://github.com/Pulkit077" />
-	
-	<remote name="nha"
-                fetch="https://github.com/nhAsif" />
-	
-	<remote name="kdrag0n"
-                fetch="https://github.com/kdrag0n" 
 
-	<!-- Device Tree -->
-	<project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="lineage-18.1" />
-	<project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="eleven" />
-        <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="baunil" revision="lineage-19.0" />
-	<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nha" revision="lineage-18.1" />
+ <remove-project name="Project-Isobar/android_packages_apps_Updater" />
 
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
-	
+ <!-- Trees -->
+ <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cr" />
+ <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
+ <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
+ <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
+ <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="11.0" />
+
 </manifest>
