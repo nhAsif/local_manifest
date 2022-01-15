@@ -18,7 +18,7 @@
 
 	<!-- Device Tree -->
 	<project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="lineage-18.1" />
-	<project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="lineage-18.1" />
+	<project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="eleven" />
         <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="baunil" revision="lineage-19.0" />
 	<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="nha" revision="lineage-18.1" />
 
