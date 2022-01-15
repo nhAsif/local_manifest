@@ -10,10 +10,15 @@
 	
 	<remote name="nha"
                 fetch="https://github.com/nhAsif" />
+	
+	<remote name="kdrag0n"
+                fetch="https://github.com/kdrag0n" 
 
 	<!-- Device Tree -->
 	<project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="lineage-18.1" />
 	<project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="pulkit" revision="lineage-18.1" />
         <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="baunil" revision="lineage-19.0" />
+
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master"/>
 	
 </manifest>
