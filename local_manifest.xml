@@ -4,11 +4,11 @@
  <remove-project name="Project-Isobar/android_packages_apps_Updater" />
 
  <!-- Trees -->
- <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cr" />
+ <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="los" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
+ <project path="packages/apps/Updater" name="nhAsif/android_packages_apps_Updater" remote="github" revision="lineage-18.1" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="11.0" />
 
 </manifest>
