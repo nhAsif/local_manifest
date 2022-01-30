@@ -10,5 +10,7 @@
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
  <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="12.0" />
+  
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
 </manifest>
