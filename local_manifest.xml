@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="crdroidandroid/android_vendor_crdroid" /> 
+  <remove-project name="platform_vendor_octavi" /> 
 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
@@ -9,7 +9,7 @@
  <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="12.0" />
+ <project path="vendor/octavi" name="nhAsif/platform_vendor_octavi" remote="github" revision="12" />
   
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
