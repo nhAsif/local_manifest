@@ -3,7 +3,7 @@
  
  <remote name="Gitlab" fetch="https://gitlab.com/AnGgIt86" />
  
- <remove-project name="android_hardware_qcom_wlan" /> 
+ <remove-project name="LineageOS/android_hardware_qcom_wlan" /> 
  <remove-project name="android_packages_apps_Updater" />
  
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="awaken" />
