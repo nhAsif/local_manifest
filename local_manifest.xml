@@ -11,7 +11,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="nfs-clang.git" remote="Gitlab" revision="main" />
 
 	<!-- Device Tree -->
-        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
+        <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="levi" revision="lineage-19.0" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
 
