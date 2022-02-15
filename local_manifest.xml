@@ -11,6 +11,11 @@
         <remote name="cherish"
                fetch="https://github.com/CherishOS/"
                revision="twelve" />
+	
+        <remote name="PROJECTS" fetch="https://github.com/NFS-projects" />
+        <remote name="nfs" fetch="https://github.com/NFS86" />
+        <remote name="Gitlab" fetch="https://gitlab.com/AnGgIt86" />
+        <remote name="levi" fetch="https://github.com/levi3609" />
 
         <!-- remove -->       
         <remove-project name="android_hardware_qcom_wlan" />
@@ -21,8 +26,8 @@
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
-        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="nha" revision="cherish12" />
-        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="nha" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="levi" revision="lineage-19.0" />
+        <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
         
 	<!-- wlan -->
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nha" revision="twelve-caf" />
@@ -32,6 +37,12 @@
         <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="cherish" />
         <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="cherish" />
         <project path="device/qcom/sepolicy-legacy-um" name="nhAsif/android_device_qcom_sepolicy-legacy-um" remote="github" revision="12.0" />
+	
+	        <!-- Gcam -->
+        <project path="packages/apps/CameraGo" name="packages_apps_CameraGo" remote="PROJECTS" revision="main" />
+
+        <!-- NFS Parts -->
+        <project path="packages/apps/NFSParts" name="NFSParts" remote="PROJECTS" revision="sdk30" />
 
 
 
