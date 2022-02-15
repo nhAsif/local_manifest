@@ -7,9 +7,14 @@
 	
 	<remote name="nha"
                 fetch="https://github.com/nhAsif" />
+	
+        <remote name="cherish"
+               fetch="https://github.com/CherishOS/"
+               revision="twelve" />
 
         <!-- remove -->       
         <remove-project name="android_hardware_qcom_wlan" />
+	<remove-project name="android_device_qcom_sepolicy" />
 	
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
@@ -21,5 +26,12 @@
         
 	<!-- wlan -->
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="nha" revision="twelve-caf" />
+
+        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="cherish" />
+        <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="cherish" />
+        <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="cherish" />
+        <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="cherish" />
+
+
 
 </manifest>
