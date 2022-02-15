@@ -31,6 +31,7 @@
         <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="cherish" />
         <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="cherish" />
         <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="cherish" />
+        <project path="device/qcom/sepolicy-legacy-um" name="nhAsif/android_device_qcom_sepolicy-legacy-um" remote="github" revision="12.0" />
 
 
 
