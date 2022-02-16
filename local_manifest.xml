@@ -12,6 +12,8 @@
  
         <!-- Toolchain -->
         <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="nfs-clang.git" remote="Gitlab" revision="main" />
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
 
 	<!-- Device Tree -->
         <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="PROJECTS" revision="twelve" />
