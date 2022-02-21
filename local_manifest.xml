@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- 
- <remove-project name="crdroidandroid/android_vendor_crdroid" />
 
+ <remote name="Gitlab" fetch="https://gitlab.com/AnGgIt86" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/rosy" name="nhAsif/kernel_xiaomi_rosy.git" remote="github" revision="tortoise297" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/lineage" name="nhAsif/android_vendor_crdroid" remote="github" revision="11.0" />
+ <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
+ <project path="prebuilts/clang/host/linux-x86/clang-NFS" name="nfs-clang.git" remote="Gitlab" revision="main" />
  
 </manifest>
