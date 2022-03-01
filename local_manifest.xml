@@ -3,9 +3,9 @@
  
 
  <remove-project name="platform_device_qcom_sepolicy-legacy-um" /> 
- <remove-project name="platform/hardware/qcom/audio" /> 
- <remove-project name="platform/hardware/qcom/display" /> 
- <remove-project name="platform/hardware/qcom/media" /> 
+ <remove-project name="platform_hardware_qcom_audio" /> 
+ <remove-project name="platform_hardware_qcom_display" /> 
+ <remove-project name="platform_hardware_qcom_media" /> 
  
  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
  
