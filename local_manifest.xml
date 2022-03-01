@@ -10,6 +10,7 @@
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
  <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
  <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
+ <project path="hardware/qcom-caf/msm8996-r" name="nhAsif/qcom-caf" remote="github" revision="main" />
 
  
 </manifest>
