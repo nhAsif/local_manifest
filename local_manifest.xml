@@ -3,9 +3,6 @@
  
          <remove-project name="android_device_qcom_sepolicy-legacy-um" /> 
          <remove-project name="android_hardware_qcom_wlan" /> 
- 
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
 
 	       <!-- Device Tree -->
         <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="arrow-12" />
