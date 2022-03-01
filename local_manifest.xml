@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <remove-project name="android_vendor_arrow" /> 
+
+ <remove-project name="platform_device_qcom_sepolicy-legacy-um" /> 
  
-<project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="arrow" />
+ <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" />
+ 
+ <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="arrow" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
- <project path="vendor/arrow" name="nhAsif/android_vendor_arrow" remote="github" revision="arrow-11.0" />
+ <project path="kernel/xiaomi/rosy" name="baunilla/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-19.0" />
+ <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-18.1-legacy-um" />
+
  
 </manifest>
