@@ -4,10 +4,10 @@
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cr" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="eleven" />
+ <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="twelve" />
  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
  <remove-project name="android_vendor_lineage" />
- <project path="vendor/lineage" name="nhAsif/android_vendor_lineage" remote="github" revision="lineage-18.1" />
+ <project path="vendor/lineage" name="Project-Isobar/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
 
  </manifest>
