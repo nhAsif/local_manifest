@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" />
+ <remove-project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" />
+ 
  <!-- Trees -->
  <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="nad-11" />
  <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
