@@ -4,7 +4,7 @@
 	<!-- Device Tree -->
         <project path="device/xiaomi/rosy" name="Teamlions/android_device_xiaomi_rosy.git" remote="github" revision="lineage-15.1" />
 	<project path="device/xiaomi/msm8953-common" name="Teamlions/android_device_xiaomi_msm8953-common.git" remote="github" revision="lineage-15.1" />
-        <project path="vendor/xiaomi/rosy" name="Teamlions/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-15.1" />
+        <project path="vendor/xiaomi" name="Teamlions/android_vendor_xiaomi_rosy.git" remote="github" revision="lineage-15.1" />
         <project path="kernel/xiaomi/rosy" name="Teamlions/android_kernel_xiaomi_rosy.git" remote="github" revision="lineage-15.1" />
 
 </manifest>
