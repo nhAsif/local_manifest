@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-        <remote name="cherish"
-               fetch="https://github.com/CherishOS/"
-               revision="twelve" />
+	  <remote  name="cherish"
+           fetch="https://github.com/CherishOS/"
+           revision="twelve" />
 	
         <!-- remove -->       
-        <remove-project name="android_hardware_qcom_wlan" />
 	<remove-project name="android_device_qcom_sepolicy" />
 	
         <!-- Toolchain -->
@@ -14,13 +13,12 @@
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
 
 	<!-- Device Tree -->
-        <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="awaken" />
-        <project path="vendor/xiaomi/rosy" name="nhAsif/vendor_xiaomi_rosy.git" remote="github" revision="twelve" />
+        <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cherish12" />
+        <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="twelve" />
         <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="twelve" />
         
-
         <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="cherish" />
         <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="cherish" />
-        <project path="device/qcom/sepolicy-legacy-um" name="nhAsif/android_device_qcom_sepolicy-legacy-um" remote="github" revision="12.0" />
+        <project path="device/qcom/sepolicy-legacy-um" name="RasyidAlKautsar/legacy-um" remote="github" revision="twelve" />
 	
 </manifest>
