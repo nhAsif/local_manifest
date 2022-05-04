@@ -2,11 +2,11 @@
 <manifest>
  
  <!-- Trees -->
- <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="eleven" />
- <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="twelve" />
- <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
+ <project path="device/xiaomi/alioth" name="LineageOS/android_device_xiaomi_alioth" remote="github" revision="lineage-18.1" />
+ <project path="device/xiaomi/sm8250-common" name="LineageOS/android_device_xiaomi_sm8250-common" remote="github" revision="lineage-18.1" />
+ <project path="kernel/xiaomi/rosy" name="UtsavBalar1231/kernel_xiaomi_sm8250.git" remote="github" revision="android11-stable" />
+ <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang.git" remote="github" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="drkphnx/android_prebuilts_clang_host_linux-x86_clang-r437112.git" remote="github" revision="master" />
  <remove-project name="Los-FE/android_vendor_lineage" />
  <project path="vendor/lineage" name="Project-Isobar/android_vendor_lineage.git" remote="github" revision="lineage-18.1" />
 
