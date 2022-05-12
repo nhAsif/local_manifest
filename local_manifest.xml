@@ -1,24 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
-	  <remote  name="cherish"
-           fetch="https://github.com/CherishOS/"
-           revision="twelve" />
-	
-        <!-- remove -->       
-	<remove-project name="android_device_qcom_sepolicy" />
-	
-        <!-- Toolchain -->
-        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="Pulkit077/gcc-arm64" remote="github" revision="gcc-master" />
-        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="Pulkit077/gcc-arm" remote="github" revision="gcc-master" />
 
-	<!-- Device Tree -->
-        <project path="device/xiaomi/rosy" name="nhAsif/device_xiaomi_rosy.git" remote="github" revision="cherish12" />
-        <project path="vendor/xiaomi/rosy" name="Pulkit077/vendor_xiaomi_rosy.git" remote="github" revision="twelve" />
-        <project path="kernel/xiaomi/rosy" name="Pulkit077/kernel_xiaomi_rosy.git" remote="github" revision="twelve" />
-        
-        <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="cherish" />
-        <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="twelve-legacy" remote="cherish" />
-        <project path="device/qcom/sepolicy-legacy-um" name="RasyidAlKautsar/legacy-um" remote="github" revision="twelve" />
+      <remote name="AbrarNoob"
+          fetch="https://github.com/AbrarNoob" />
 	
+     <remote name="nha"
+          fetch="https://github.com/nhAsif" />
+
+     <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
+     <remote name="los" 
+          fetch="https://github.com/LineageOS" />
+
+      <remote name="Emanuel"
+          fetch="https://github.com/EmanuelCN" />
+
+      <remote name="alt"
+          fetch="https://github.com/afterallafk" />
+   
+      <remote name="ray"
+          fetch="https://github.com/raystef66" />
+
+       <remote name="ar"
+          fetch="https://github.com/ArrowOS" />
+      
+       <remote name="pp"
+          fetch="https://github.com/PixelPlusUI-Devices" />
+
+
+
+    <!-- Trees -->
+
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="nha" revision="crdroid" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="pp" revision="voltage" />
+  <project path="vendor/xiaomi" name="vendor_xiaomi_alioth" remote="AbrarNoob" revision="12L" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_sm8250" remote="Emanuel" revision="staging3" />
+
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
+  
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
+
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
+
+  <!-- Toolchain -->
+   
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+
+
 </manifest>
