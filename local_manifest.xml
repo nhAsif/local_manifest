@@ -12,15 +12,6 @@
 
       <remote name="Emanuel"
           fetch="https://github.com/EmanuelCN" />
-
-      <remote name="alt"
-          fetch="https://github.com/afterallafk" />
-   
-      <remote name="ray"
-          fetch="https://github.com/raystef66" />
-
-       <remote name="ar"
-          fetch="https://github.com/ArrowOS" />
       
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
