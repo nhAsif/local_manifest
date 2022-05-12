@@ -4,8 +4,8 @@
      <remote name="nha"
           fetch="https://github.com/nhAsif" />
 
-     <remote name="kdrag0n" 
-          fetch="https://github.com/kdrag0n" />
+     <remote name="drk" 
+          fetch="https://github.com/drkphnx" />
 
      <remote name="los" 
           fetch="https://github.com/LineageOS" />
@@ -34,6 +34,8 @@
 
   <remove-project name="android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/> 
+	
+  <project path="prebuilts/clang/host/linux-x86/clang-r437112" name="android_prebuilts_clang_host_linux-x86_clang-r437112" remote="drk" revision="master"/>
 
 
 </manifest>
