@@ -38,4 +38,6 @@
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="nha" revision="snowcone-12.1" />
 	
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
+	
 </manifest>
