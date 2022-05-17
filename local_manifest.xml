@@ -37,8 +37,5 @@
  
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
-  
-  <project path="prebuilts/clang/host/linux-x86/lolz-clang" name="lolz-clang" remote="nha" revision="main" clone-depth="1" />
-	
 	
 </manifest>
