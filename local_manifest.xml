@@ -38,4 +38,17 @@
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
 	
+  <remove-project name="android_art"/>
+  <project path="art" name="android_art" remote="nha" revision="twelve-L" />
+	
+  <remove-project name="android_bionic"/>
+  <project path="bionic" name="android_bionic" remote="nha" revision="twelve-L" />
+	
+  <remove-project name="android_build_soong"/>
+  <project path="build/soong" name="android_build_soong" remote="nha" revision="twelve-L" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+	
+	
 </manifest>
