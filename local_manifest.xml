@@ -20,35 +20,22 @@
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_ppui" remote="nha" revision="cipher" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_ppui" remote="nha" revision="crd12" />
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="nha" revision="snowcone" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="pp" revision="snowcone" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="pp" revision="snowcone" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="pp" revision="snowcone" />
 
-  <remove-project name="android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
-  <remove-project name="android_hardware_qcom_media"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
-  <remove-project name="android_hardware_qcom_display"/>
+  <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
  
-  <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
-	
-  <remove-project name="android_art"/>
-  <project path="art" name="android_art" remote="nha" revision="twelve-L" />
-	
-  <remove-project name="android_bionic"/>
-  <project path="bionic" name="android_bionic" remote="nha" revision="twelve-L" />
-	
-  <remove-project name="android_build_soong"/>
-  <project path="build/soong" name="android_build_soong" remote="nha" revision="twelve-L" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
 	
 	
 </manifest>
