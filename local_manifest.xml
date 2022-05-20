@@ -38,11 +38,5 @@
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
 	
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
-  
-  <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" revision="snowcone-12.1" />
-	
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-19.1" />
-	
-	
+		
 </manifest>
