@@ -42,7 +42,7 @@
   <remove-project name="LineageOS/android_device_qcom_sepolicy"/>
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="ppui" revision="snowcone-12.1" />
 	
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" revision="lineage-19.1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" revision="lineage-19.1" />
 	
 	
 </manifest>
