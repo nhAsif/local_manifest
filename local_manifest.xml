@@ -27,13 +27,13 @@
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="pp" revision="snowcone" />
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
  
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
 	
