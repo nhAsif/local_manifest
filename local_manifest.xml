@@ -15,6 +15,9 @@
       
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
+	
+      <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
 
 
 
@@ -37,5 +40,7 @@
  
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
+
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 	
 </manifest>
