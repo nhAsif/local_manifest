@@ -15,6 +15,9 @@
       
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
+	
+      <remote name="tws" 
+          fetch="https://github.com/TwistedPrime" />
 
 
 
@@ -38,5 +41,7 @@
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
 	
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
+   
+  <project path="prebuilts/clang/host/linux-x86/twisted-clang" name="twisted-clang" remote="tws" revision="master" clone-depth="1" />
 		
 </manifest>
