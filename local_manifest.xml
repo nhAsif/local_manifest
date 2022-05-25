@@ -19,6 +19,9 @@
       <remote name="tws" 
           fetch="https://github.com/TwistedPrime" />
 
+      <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
 
 
     <!-- Trees -->
@@ -43,6 +46,7 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
    
   <project path="prebuilts/clang/host/linux-x86/twisted-clang" name="twisted-clang" remote="tws" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />
 		
