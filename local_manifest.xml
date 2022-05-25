@@ -16,6 +16,9 @@
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
 
+      <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
 
 
     <!-- Trees -->
