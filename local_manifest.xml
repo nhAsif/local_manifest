@@ -41,7 +41,7 @@
   <remove-project name="android_hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
 
-  <project path="prebuilts/clang/host/linux-x86/nha-clang" name="nha-clang" remote="nha" revision="master"/>
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />	
 	
 </manifest>
