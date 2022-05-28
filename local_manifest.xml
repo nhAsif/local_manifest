@@ -27,26 +27,21 @@
     <!-- Trees -->
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth_ppui" remote="nha" revision="crd12" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="nha" revision="crd12" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="nha" revision="cr" />
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="pp" revision="snowcone" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="pp" revision="snowcone" />
   <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="pp" revision="snowcone" />
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="alioth_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
   
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="alioth_hardware_qcom-caf_sm8250_media" remote="pp" revision="snowcone"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
- 
-  <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
+  <project path="hardware/qcom-caf/sm8250/display" name="alioth_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
 	
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
-   
-  <project path="prebuilts/clang/host/linux-x86/twisted-clang" name="twisted-clang" remote="tws" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />
 		
