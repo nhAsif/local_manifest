@@ -16,8 +16,8 @@
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
 	
-      <remote name="tws" 
-          fetch="https://github.com/TwistedPrime" />
+      <remote name="cglab" 
+          fetch="https://gitlab.com/crdroidandroid" />
 
       <remote name="kdrag0n" 
           fetch="https://github.com/kdrag0n" />
@@ -44,5 +44,7 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
   
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />
+	
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="cglab" revision="12.1" clone-depth="1" />
 		
 </manifest>
