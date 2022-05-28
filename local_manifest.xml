@@ -44,6 +44,7 @@
   <project path="hardware/xiaomi" name="android_hardwere_xiaomi" remote="nha" revision="snowcone-12.1" />
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="nha" revision="snowcone" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="cglab" revision="12.1" />
   
   <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />
 		
