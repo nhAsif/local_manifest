@@ -18,6 +18,9 @@
 	
       <remote name="crz" 
           fetch="https://github.com/cristianvaz" />
+	
+      <remote name="lab" 
+          fetch="https://github.com/Alioth-Lab" />
 
 
 
@@ -40,6 +43,7 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="prebuilts_clang_host_linux-x86_clang-sdclang" remote="ppui" revision="snowcone-12.1" clone-depth="1" />
   
-  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" clone-depth="1" />
+  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="drk" revision="12" />
+  <project path="vendor/GcamBSG" name="vendor_GoogleCamera" remote="lab" revision="twelve" />
 		
 </manifest>
