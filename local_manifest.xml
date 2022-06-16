@@ -25,6 +25,9 @@
       <remote name="ray" 
           fetch="https://github.com/raystef66" />
 
+      <remote name="org" 
+          fetch="https://github.com/crdroidandroid" />
+
 
 
     <!-- Trees -->
@@ -45,5 +48,7 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
+  
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="org" revision="12.0"/>   
 		
 </manifest>
