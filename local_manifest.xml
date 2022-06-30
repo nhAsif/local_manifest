@@ -22,8 +22,8 @@
       <remote name="void" 
           fetch="https://github.com/VoidUI" />
 	
-      <remote name="ray" 
-          fetch="https://github.com/raystef66" />
+      <remote name="vd" 
+          fetch="https://github.com/VoidUI-Devices" />
 
       <remote name="org" 
           fetch="https://github.com/PlusLineage" />
@@ -34,7 +34,7 @@
 
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="org" revision="plus" />
   <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="nha" revision="plus" />
-  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="vd" revision="aosp-12.1" />
 	
   <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="org" revision="plus" />
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="org" revision="plus" />
