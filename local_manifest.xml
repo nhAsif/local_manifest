@@ -10,8 +10,8 @@
      <remote name="los" 
           fetch="https://github.com/LineageOS" />
 
-      <remote name="ppui"
-          fetch="https://github.com/PixelPlusUI-SnowCone" />
+      <remote name="em"
+          fetch="https://github.com/EmanuelCN" />
       
        <remote name="pp"
           fetch="https://github.com/PixelPlusUI-Devices" />
@@ -19,26 +19,25 @@
       <remote name="bb" 
           fetch="https://github.com/buildbot69" />
 
-      <remote name="kdrag0n" 
-          fetch="https://github.com/kdrag0n" />
+      <remote name="void" 
+          fetch="https://github.com/VoidUI" />
 	
       <remote name="ray" 
           fetch="https://github.com/raystef66" />
 
       <remote name="org" 
-          fetch="https://github.com/crdroidandroid" />
+          fetch="https://github.com/PlusLineage" />
 
 
 
     <!-- Trees -->
 
-  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="ray" revision="12.1" />
-  <project path="device/xiaomi/extras" name="device_xiaomi_extras" remote="ray" revision="12" />
-  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common" remote="ray" revision="12.1-alioth" />
-  <project path="kernel/xiaomi/sm8250" name="InfiniR_kernel_alioth" remote="ray" revision="12.1-alioth" />
+  <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="org" revision="plus" />
+  <project path="device/xiaomi/sm8250-common" name="device_xiaomi_sm8250-common-1" remote="nha" revision="plus" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_sm8250" remote="em" revision="staging" />
 	
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="bb" revision="12.1" />
-  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="bb" revision="12.1" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="org" revision="plus" />
+  <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="org" revision="plus" />
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/sm8250/audio" name="alioth_hardware_qcom-caf_sm8250_audio" remote="pp" revision="snowcone"/>
@@ -48,5 +47,7 @@
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
   <project path="hardware/qcom-caf/sm8250/display" name="alioth_hardware_qcom-caf_sm8250_display" remote="pp" revision="snowcone"/>   
+	
+  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="prebuilts_clang_host_linux-x86_clang-sdclang" remote="void" revision="aosp-12.1"/>   
 		
 </manifest>
