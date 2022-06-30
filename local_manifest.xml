@@ -16,8 +16,8 @@
        <remote name="pp"
           fetch="https://github.com/johnmart19" />
 	
-      <remote name="bb" 
-          fetch="https://github.com/buildbot69" />
+      <remote name="vcf" 
+          fetch="https://github.com/VoidUI-CAF" />
 
       <remote name="void" 
           fetch="https://github.com/VoidUI" />
@@ -40,13 +40,13 @@
   <project path="vendor/xiaomi/sm8250-common" name="vendor_xiaomi_sm8250-common" remote="org" revision="plus" />
 
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pp" revision="aosp-12.1"/>
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="vcf" revision="aosp-12.1"/>
   
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pp" revision="aosp-12.1"/>
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="vcf" revision="aosp-12.1"/>
 
   <remove-project name="LineageOS/android_hardware_qcom_display"/>
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pp" revision="aosp-12.1"/>   
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="vcf" revision="aosp-12.1"/>   
 	
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="prebuilts_clang_host_linux-x86_clang-sdclang" remote="void" revision="aosp-12.1"/>   
 	
