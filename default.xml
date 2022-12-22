@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <include name="device_source.xml" />
+   <include name="hals.xml" />
+   <include name="misc.xml" />
+   <include name="clang.xml" />
+</manifest>
