@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remove-project name="LineageOS/android_hardware_qcom_audio" />
+   <remove-project name="LineageOS/android_hardware_qcom_media" />
+   <remove-project name="LineageOS/android_hardware_qcom_display" />
+   <remove-project name="external_faceunlock" />
+   <remove-project name="hardware_xiaomi" />
+</manifest>
