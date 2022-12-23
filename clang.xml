@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="git" fetch="https://github.com" />
-   <remote name="gitlab" fetch="https://gitlab.com" />
+   <remote name="glab" fetch="https://gitlab.com" />
    <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" />
-   <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="Roxor-007/WeebX_clang16" remote="gitlab" revision="main" />
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="glab" revision="master" />
+   <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="Roxor-007/WeebX_clang16" remote="glab" revision="main" />
 </manifest>
