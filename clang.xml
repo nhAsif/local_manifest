@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="github" fetch="https://github.com" />
+   <remote name="git" fetch="https://github.com" />
    <remote name="gitlab" fetch="https://gitlab.com" />
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" />
