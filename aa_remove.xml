@@ -3,6 +3,5 @@
    <remove-project name="LineageOS/android_hardware_qcom_audio" />
    <remove-project name="LineageOS/android_hardware_qcom_media" />
    <remove-project name="LineageOS/android_hardware_qcom_display" />
-   <remove-project name="external_faceunlock" />
-   <remove-project name="hardware_xiaomi" />
+   <remove-project name="android_external_faceunlock" />
 </manifest>
