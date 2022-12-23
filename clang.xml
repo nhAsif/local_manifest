@@ -4,4 +4,5 @@
    <remote name="gitlab" fetch="https://gitlab.com" />
    <!-- Clang -->
    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" />
+   <project path="prebuilts/clang/host/linux-x86/clang-ZyC" name="Roxor-007/WeebX_clang16" remote="gitlab" revision="main" />
 </manifest>
