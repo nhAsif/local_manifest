@@ -3,7 +3,7 @@
    <remote name="github" fetch="https://github.com" />
    <remote name="gitlab" fetch="https://gitlab.com" />
    <!-- Misc -->
-   <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" revision="aosp-13" />
-   <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="github" revision="aosp-13" />
-   <project path="external/ant-wireless/antradio-library" name="VoidUI-Tiramisu/external_ant-wireless_antradio-library" remote="github" revision="aosp-13" />
+   <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="gitlab" clone-depth="1" revision="aosp-13" />
+   <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="github" clone-depth="1" revision="aosp-13" />
+   <project path="external/ant-wireless/antradio-library" name="VoidUI-Tiramisu/external_ant-wireless_antradio-library" remote="github" clone-depth="1" revision="aosp-13" />
 </manifest>
