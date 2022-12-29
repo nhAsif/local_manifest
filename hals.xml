@@ -3,7 +3,7 @@
    <remote name="github" fetch="https://github.com" />
    <remote name="gitlab" fetch="https://gitlab.com" />
    <!-- Hals -->
-   <project path="hardware/qcom-caf/sm8250/audio" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_audio" remote="github" clone-depth="1" revision="aosp-13" />
+   <project path="hardware/qcom-caf/sm8250/audio" name="Pixel-outside-t/hardware_qcom-caf_sm8250_audio" remote="github" clone-depth="1" revision="aosp-13" />
    <project path="hardware/qcom-caf/sm8250/media" name="Pixel-outside-t/hardware_qcom-caf_sm8250_media" remote="github" clone-depth="1" revision="aosp-13" />
-   <project path="hardware/qcom-caf/sm8250/display" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_display" remote="github" clone-depth="1" revision="aosp-13" />
+   <project path="hardware/qcom-caf/sm8250/display" name="Pixel-outside-t/hardware_qcom-caf_sm8250_display" remote="github" clone-depth="1" revision="aosp-13" />
 </manifest>
