@@ -3,8 +3,8 @@
    <remote name="github" fetch="https://github.com" />
    <remote name="gitlab" fetch="https://gitlab.com" />
    <!-- Trees -->
-   <project path="device/xiaomi/alioth" name="Pixel-outside-t/device_xiaomi_alioth" remote="github" clone-depth="1" revision="evox" />
-   <project path="device/xiaomi/sm8250-common" name="Pixel-outside-t/device_xiaomi_sm8250-common" remote="github" clone-depth="1" revision="evox" />
+   <project path="device/xiaomi/alioth" name="Pixel-outside-t/device_xiaomi_alioth" remote="github" clone-depth="1" revision="pe-13" />
+   <project path="device/xiaomi/sm8250-common" name="Pixel-outside-t/device_xiaomi_sm8250-common" remote="github" clone-depth="1" revision="pe-13" />
    <project path="vendor/xiaomi/alioth" name="VoidUI-Devices/vendor_xiaomi_alioth" remote="github" clone-depth="1" revision="aosp-13" />
    <project path="vendor/xiaomi/sm8250-common" name="VoidUI-Devices/vendor_xiaomi_sm8250-common" remote="github" clone-depth="1" revision="aosp-13" />
    <project path="kernel/xiaomi/alioth" name="EmanuelCN/kernel_xiaomi_sm8250" remote="github" clone-depth="1" revision="staging" />
