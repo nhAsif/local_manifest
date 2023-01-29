@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="git" fetch="https://github.com" />
-   <remote name="glab" fetch="https://gitlab.com" />
-   <!-- Misc -->
-   <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
-   <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
-   </manifest>
+	<remote name="git" fetch="https://github.com" />
+	<remote name="glab" fetch="https://gitlab.com" />
+	<!-- Misc -->
+	<project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
+	<project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
+</manifest>
