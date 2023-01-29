@@ -5,5 +5,4 @@
    <!-- Misc -->
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
-   <project path="vendor/qcom/opensource/commonsys-intf/display" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_display" remote="git" revision="thirteen" />
-</manifest>
+   </manifest>
