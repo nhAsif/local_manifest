@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+   <remove-project name="ricedroidOSS/android_hardware_qcom_audio_sm8250" />
+   <remove-project name="ricedroidOSS/android_hardware_qcom_media_sm8250" />
+   <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250" />
    <remove-project name="LineageOS/android_hardware_qcom_audio" />
    <remove-project name="LineageOS/android_hardware_qcom_media" />
    <remove-project name="LineageOS/android_hardware_qcom_display" />
