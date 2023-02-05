@@ -5,4 +5,5 @@
    <!-- Misc -->
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
+   <project path="frameworks/native" name="Pixel-outside/android_frameworks_native" remote="git" revision="thirteen" />
 </manifest>
