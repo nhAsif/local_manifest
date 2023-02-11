@@ -4,7 +4,7 @@
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Trees -->
    <project path="device/xiaomi/alioth" name="Pixel-outside/device_xiaomi_alioth" remote="git" revision="evox" />
-   <project path="device/xiaomi/sm8250-common" name="Pixel-outside/device_xiaomi_sm8250-common" remote="git" revision="evox-test" />
+   <project path="device/xiaomi/sm8250-common" name="Pixel-outside/device_xiaomi_sm8250-common" remote="git" revision="evo-sg" />
    <project path="vendor/xiaomi/alioth" name="Pixel-outside/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
    <project path="vendor/xiaomi/sm8250-common" name="Pixel-outside/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
    <project path="kernel/xiaomi/alioth" name="raystef66/InfiniR_kernel_alioth" remote="git" revision="13.0-alioth" />
