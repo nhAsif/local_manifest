@@ -3,6 +3,6 @@
    <remote name="git" fetch="https://github.com" />
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Clang -->
-   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="glab" revision="master" />
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="nhAsif/clang-r450784d" remote="glab" revision="master" />
    <project path="prebuilts/clang/host/linux-x86/clang-WeebX" name="XSans0/weebx-clang-15" remote="glab" revision="main" />
 </manifest>
