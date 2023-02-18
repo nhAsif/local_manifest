@@ -3,7 +3,6 @@
    <remove-project name="ricedroidOSS/android_hardware_qcom_audio_sm8250" />
    <remove-project name="ricedroidOSS/android_hardware_qcom_media_sm8250" />
    <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250" />
-   <remove-project name="ricedroidOSS/android_frameworks_native" />
    <remove-project name="crdroidandroid/android_external_faceunlock" />
    <remove-project name="LineageOS/android_hardware_xiaomi" />
 </manifest>
