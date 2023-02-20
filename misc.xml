@@ -4,5 +4,5 @@
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Misc -->
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
-   <project path="hardware/xiaomi" name="Pixel-outside/hardware_xiaomi" remote="git" revision="old" />
+   <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
 </manifest>
