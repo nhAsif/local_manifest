@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-   <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250" />   
-   <remove-project name="ricedroidOSS/android_frameworks_native" />   
-   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-   <remove-project name="crdroidandroid/android_external_faceunlock" />
-   <remove-project name="LineageOS/android_hardware_xiaomi" />
-</manifest>
