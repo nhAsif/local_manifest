@@ -3,9 +3,9 @@
    <remote name="git" fetch="https://github.com" />
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Trees -->
-   <project path="device/xiaomi/alioth" name="Alioth-Trees/device_xiaomi_alioth" remote="git" revision="rice" />
-   <project path="device/xiaomi/sm8250-common" name="Alioth-Trees/device_xiaomi_sm8250-common" remote="git" revision="rice" />
-   <project path="vendor/xiaomi/alioth" name="Alioth-Trees/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
-   <project path="vendor/xiaomi/sm8250-common" name="Alioth-Trees/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
-   <project path="kernel/xiaomi/sm8250" name="EmanuelCN/kernel_xiaomi_sm8250" remote="git" revision="staging" />
+   <project path="device/xiaomi/alioth" name="Alioth-Trees-T/device_xiaomi_alioth" remote="git" revision="rice" />
+   <project path="device/xiaomi/sm8250-common" name="Alioth-Trees-T/device_xiaomi_sm8250-common" remote="git" revision="rice" />
+   <project path="vendor/xiaomi/alioth" name="Alioth-Trees-T/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
+   <project path="vendor/xiaomi/sm8250-common" name="Alioth-Trees-T/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
+   <project path="kernel/xiaomi/sm8250" name="Alioth-Trees-T/kernel_xiaomi_sm8250" remote="git" revision="staging" />
 </manifest>
