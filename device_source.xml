@@ -3,7 +3,7 @@
    <remote name="git" fetch="https://github.com" />
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Trees -->
-   <project path="device/xiaomi/jasmine_sprout" name="Jasmine-Trees/device_xiaomi_jasmine_sprout" remote="git" revision="rice" />
+   <project path="device/xiaomi/jasmine_sprout" name="Jasmine-Trees/device_xiaomi_jasmine_sprout" remote="git" revision="cherish" />
    <project path="vendor/xiaomi/jasmine_sprout" name="Jasmine-Trees/vendor_xiaomi_jasmine_sprout" remote="git" revision="trece" />
    <project path="kernel/xiaomi/jasmine_sprout" name="Atom-X-Devs/android_kernel_xiaomi_scarlet" remote="git" revision="a13/dynamic" />
 </manifest>
