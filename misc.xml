@@ -6,5 +6,4 @@
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
    <project path="packages/resources/devicesettings" name="VoidUI-Tiramisu/packages_resources_devicesettings" remote="git" revision="aosp-13" />
-   <project path="frameworks/native" name="Poco-F3/android_frameworks_native" remote="git" revision="thirteen" />
 </manifest>
