@@ -8,9 +8,9 @@
    <project path="device/xiaomi/alioth" name="Poco-F3/device_xiaomi_alioth" remote="git" revision="rice" />
    <project path="device/xiaomi/sm8250-common" name="Poco-F3/device_xiaomi_sm8250-common" remote="git" revision="rice" />
 
-   <project path="kernel/xiaomi/sm8250" name="Alioth-Trees-T/kernel_xiaomi_sm8250" remote="git" revision="staging" />
+   <project path="kernel/xiaomi/sm8250" name="Poco-F3/kernel_xiaomi_sm8250" remote="git" revision="staging" />
 
-   <project path="vendor/xiaomi/alioth" name="VoidUI-Devices/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
-   <project path="vendor/xiaomi/sm8250-common" name="VoidUI-Devices/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
+   <project path="vendor/xiaomi/alioth" name="Poco-F3/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
+   <project path="vendor/xiaomi/sm8250-common" name="Poco-F3/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
 
 </manifest>
