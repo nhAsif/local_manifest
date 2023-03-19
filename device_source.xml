@@ -11,5 +11,6 @@
    <project path="vendor/xiaomi/sm8250-common" name="Poco-F3-Trees/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
    
    <project path="kernel/xiaomi/sm8250" name="Poco-F3-Trees/kernel_xiaomi_sm8250" remote="git" revision="staging" />
+   <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="Poco-F3-Trees/zyc_clang-14" remote="git" revision="master" />
 
 </manifest>
