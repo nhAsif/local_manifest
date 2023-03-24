@@ -14,5 +14,6 @@
    <project path="hardware/qcom-caf/sm8250/display" name="Poco-F3-Trees/hardware_qcom-caf_sm8250_display" remote="git" revision="aosp-13" />
 
    <project path="packages/wallpapers/LivePicker" name="Poco-F3-Trees/android_packages_wallpapers_LivePicker" remote="git" revision="lineage-20.0" />
+   <project path="external/chromium-webview/prebuilt/arm64" name="Poco-F3-Trees/android_external_chromium-webview_prebuilt_arm64" revision="main" remote="git" clone-depth="1" />
 
 </manifest>
