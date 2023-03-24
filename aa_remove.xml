@@ -4,4 +4,5 @@
    <remove-project name="LineageOS/android_packages_resources_devicesettings" />
    <remove-project name="crdroidandroid/android_external_faceunlock" />
    <remove-project name="LineageOS/android_hardware_xiaomi" />
+   <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
 </manifest>

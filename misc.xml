@@ -3,6 +3,8 @@
    <remote name="git" fetch="https://github.com" />
    <remote name="glab" fetch="https://gitlab.com" />
    <!-- Misc -->
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="nhAsif/clang-r450784d" remote="glab" revision="master" />
+
    <project path="external/faceunlock" name="VoidUI/external_faceunlock" remote="glab" revision="aosp-13" />
    <project path="hardware/xiaomi" name="VoidUI-Tiramisu/hardware_xiaomi" remote="git" revision="aosp-13" />
    <project path="packages/resources/devicesettings" name="VoidUI-Tiramisu/packages_resources_devicesettings" remote="git" revision="aosp-13" />
