@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="git" fetch="https://github.com" />
+   <remote name="glab" fetch="https://gitlab.com" />
+
+   <!-- Clang -->
+   <project 
+      path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+      name="nhAsif/clang-r450784d" 
+      remote="glab" 
+      revision="master" 
+   />
+   
+   <project 
+      path="prebuilts/clang/host/linux-x86/clang-zyc" 
+      name="nhAsif/zyc_clang-16" 
+      remote="glab" 
+      revision="main" 
+   />
+</manifest>
