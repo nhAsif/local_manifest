@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remove-project name="ricedroidOSS/android_hardware_qcom_display_sm8250" />     
-   <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-   <remove-project name="crdroidandroid/android_external_faceunlock" />
-   <remove-project name="LineageOS/android_hardware_xiaomi" />
-   <remove-project name="LineageOS/android_packages_wallpapers_LivePicker" />
-   <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+   <remove-project name="LineageOS/android_hardware_qcom_display" />     
+   <remove-project name="android_packages_resources_devicesettings" />
+   <remove-project name="android_external_faceunlock" />
+   <remove-project name="android_hardware_xiaomi" />
 </manifest>

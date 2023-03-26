@@ -5,8 +5,8 @@
    <remote name="glab" fetch="https://gitlab.com" />
 
    <!-- Trees -->
-   <project path="device/xiaomi/alioth" name="Poco-F3-Trees/device_xiaomi_alioth" remote="git" revision="rice" />
-   <project path="device/xiaomi/sm8250-common" name="Poco-F3-Trees/device_xiaomi_sm8250-common" remote="git" revision="rice" />
+   <project path="device/xiaomi/alioth" name="Poco-F3-Trees/device_xiaomi_alioth" remote="git" revision="cherish" />
+   <project path="device/xiaomi/sm8250-common" name="Poco-F3-Trees/device_xiaomi_sm8250-common" remote="git" revision="cherish" />
 
    <project path="kernel/xiaomi/sm8250" name="Poco-F3-Trees/kernel_xiaomi_sm8250" remote="git" revision="staging" />
    <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="Poco-F3-Trees/zyc_clang-14" remote="git" revision="master" />
