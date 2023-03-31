@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ode<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="git" fetch="https://github.com"/>
   <remote name="glab" fetch="https://gitlab.com"/>
@@ -17,9 +17,4 @@
     path="vendor/xiaomi/sdm660-common"
     remote="git"
     revision="13"/>
-  <project
-    name="clarencelol/kernel_xiaomi_sdm660-4.19"
-    path="kernel/xiaomi/sdm660"
-    remote="git"
-    revision="melon"/>
 </manifest>

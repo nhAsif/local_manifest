@@ -47,4 +47,10 @@
         remote="git"
         revision="tiramisu"
     />
+  <project
+    name="Jasmine-Trees/android_kernel_xiaomi_scarlet"
+    path="kernel/xiaomi/sdm660"
+    remote="git"
+    revision="a13/qti-haptics"/>
+
 </manifest>
