@@ -4,8 +4,8 @@
     <remote name="glab" fetch="https://gitlab.com" />
     
     <project
-        name="Jasmine-Trees/android_device_xiaomi_jasmine_sprout"
-        path="device/xiaomi/jasmine_sprout"
+        name="Jasmine-Trees/device_xiaomi_wayne"
+        path="device/xiaomi/wayne"
         remote="git"
         revision="cherish"
     />
