@@ -5,7 +5,6 @@
    <remote name="glab" fetch="https://gitlab.com" />
 
    <!-- Trees -->
-   <project path="vendor/xiaomi/alioth" name="VoidUI-Devices/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
    <project path="vendor/xiaomi/sm8250-common" name="VoidUI-Devices/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-13" />
    
 </manifest>
