@@ -15,7 +15,12 @@
         remote="git"
         revision="13"
     />
-
+    <project
+        name="Jasmine-Trees/android_kernel_xiaomi_scarlet"
+        path="kernel/xiaomi/sdm660"
+        remote="git"
+        revision="qti-haptics"
+    />
     <!-- Removed projects -->
     <remove-project name="android_device_qcom_sepolicy" />
     <remove-project name="ArrowOS/android_hardware_qcom_audio" />
