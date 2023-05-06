@@ -9,7 +9,6 @@
    <project path="device/xiaomi/sm8250-common" name="Poco-F3-Trees/device_xiaomi_sm8250-common" remote="git" revision="cherish" />
 
    <project path="kernel/xiaomi/sm8250" name="Poco-F3-Trees/kernel_xiaomi_sm8250" remote="git" revision="staging" />
-   <project path="prebuilts/clang/host/linux-x86/clang-zyc" name="Poco-F3-Trees/zyc_clang-14" remote="git" revision="master" />
 
    <project path="hardware/qcom-caf/sm8250/display" name="Poco-F3-Trees/hardware_qcom-caf_sm8250_display" remote="git" revision="aosp-13" />
    <project path="vendor/xiaomi/alioth" name="Poco-F3-Trees/vendor_xiaomi_alioth" remote="git" revision="aosp-13" />
