@@ -10,13 +10,13 @@
         revision="cherish"
     />
     <project
-        name="Jasmine-Trees/android_device_xiaomi_sdm660-common"
+        name="clarencelol/android_device_xiaomi_sdm660-common"
         path="device/xiaomi/sdm660-common"
         remote="git"
         revision="13"
     />
     <project
-        name="Jasmine-Trees/android_kernel_xiaomi_scarlet"
+        name="Atom-X-Devs/android_kernel_xiaomi_scarlet"
         path="kernel/xiaomi/sdm660"
         remote="git"
         revision="qti-haptics"
