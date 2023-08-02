@@ -22,10 +22,9 @@
         revision="qti-haptics"
     />
     <!-- Removed projects -->
-    <remove-project name="android_device_qcom_sepolicy" />
-    <remove-project name="ArrowOS/android_hardware_qcom_audio" />
-    <remove-project name="ArrowOS/android_hardware_qcom_media" />
-    <remove-project name="ArrowOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_display" />
+    <remove-project name="LineageOS/android_hardware_qcom_audio" />
+    <remove-project name="LineageOS/android_hardware_qcom_media" />
 
     <!-- Misc projects -->
     <project
@@ -45,11 +44,5 @@
         path="hardware/qcom-caf/sdm660/display"
         remote="git"
         revision="tortilla"
-    />
-    <project
-        name="Jasmine-Trees/device_qcom_sepolicy-legacy-um"
-        path="device/qcom/sepolicy-legacy-um"
-        remote="git"
-        revision="tiramisu"
     />
 </manifest>
